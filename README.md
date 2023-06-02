@@ -1,11 +1,14 @@
 # Formalizing Preferences Over Runtime Distributions
 
+
+
+
 Setup:
 ```
 mkdir dat img
 ```
 
-## Maximum-Entropy Utility Functions
+### Maximum-Entropy Utility Functions
 ```
 python generate_maxent_plots.py
 ```
