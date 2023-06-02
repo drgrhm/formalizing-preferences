@@ -17,7 +17,7 @@ python generate_maxent_plots.py
 ```
 
 
-### Automted Algorithm Configuration
+### Automated Algorithm Configuration
 
 Get data:
 ```
