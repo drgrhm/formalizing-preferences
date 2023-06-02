@@ -1,21 +1,27 @@
 # Formalizing Preferences Over Runtime Distributions
 
-## Setup
+Setup:
 ```
 mkdir dat img
 ```
 
 ## Maximum-Entropy Plots
-
 ```
-python 
+python generate_maxent_plots.py
 ```
 
 
 ## Automted Algorithm Configuration
 
+Get data and setup:
 ```
-python 
+python
+```
+
+
+Generate table:
+```
+python generate_utility_table.py
 ```
 
 
