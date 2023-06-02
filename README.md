@@ -13,11 +13,11 @@ python generate_maxent_plots.py
 
 ## Automted Algorithm Configuration
 
-Get data and setup:
+Get data:
 ```
-python
+git clone https://github.com/deepmind/leaps-and-bounds.git
+gzip -d ./leaps-and-bounds/measurements.dump.gz
 ```
-
 
 Generate table:
 ```
