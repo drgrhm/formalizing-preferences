@@ -1,7 +1,9 @@
 # Formalizing Preferences Over Runtime Distributions
 
+When trying to solve a computational problem, we are often faced with a choice between algorithms that are guaranteed to return the right answer but differ in their runtime distributions (e.g., SAT solvers, sorting algorithms). This paper aims to lay theoretical foundations for such choices by formalizing preferences over runtime distributions. It might seem that we should simply prefer the algorithm that minimizes expected runtime. However, such preferences would be driven by exactly how slow our algorithm is on bad inputs, whereas in practice we are typically willing to cut off occasional, sufficiently long runs before they finish. We propose a principled alternative, taking a utility-theoretic approach to characterize the scoring functions that describe preferences over algorithms. These functions depend on the way our value for solving our problem decreases with time and on the distribution from which captimes are drawn. We describe examples of realistic utility functions and show how to leverage a maximum-entropy approach for modeling underspecified captime distributions. Finally, we show how to efficiently estimate an algorithm's expected utility from runtime samples.
 
 
+[tag](...url...)
 
 Setup:
 ```
@@ -14,7 +16,7 @@ python generate_maxent_plots.py
 ```
 
 
-## Automted Algorithm Configuration
+### Automted Algorithm Configuration
 
 Get data:
 ```
@@ -28,7 +30,7 @@ python generate_utility_table.py
 ```
 
 
-## 2021 International SAT Comptetiton
+### 2021 International SAT Comptetiton
 
 Get data (parallel track):
 ```
