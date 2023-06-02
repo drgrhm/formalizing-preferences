@@ -5,7 +5,7 @@ Setup:
 mkdir dat img
 ```
 
-## Maximum-Entropy Plots
+## Maximum-Entropy Utility Functions
 ```
 python generate_maxent_plots.py
 ```
