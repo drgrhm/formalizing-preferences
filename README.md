@@ -1,6 +1,6 @@
 # Formalizing Preferences Over Runtime Distributions
 
-Experiments from the paper _Formalizing Preferences Over Runtime Distributions_, found [here](...url...). 
+Experiments from the paper _Formalizing Preferences Over Runtime Distributions_, found [here](https://arxiv.org/abs/2205.13028). 
 
 ### Abstract
 
